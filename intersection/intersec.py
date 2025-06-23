@@ -6,7 +6,7 @@ def intersec(nums1, nums2):
             intersected.append(num)
     return intersected
 
-nums1 = [2, 4, 4, 2]
-nums2 = [2, 4]
+nums1 = [2, 4, 6, 8]
+nums2 = [1, 3, 5, 7]
 result = intersec(nums1, nums2)
 print(result)
